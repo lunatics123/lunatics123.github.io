@@ -5,7 +5,6 @@ university: Fudan University
 header-img: img/bg.jpg
 theme-color: "#000000"
 service-worker: true
-email: honglu@fudan.edu.cn
 description: "This is an official website of Fudan Machine Vision Lab."
 keyword: "Fudan, Machine Vision, Hong Lu"
 url: "https://fudanmv.github.io"
@@ -13,5 +12,5 @@ url: "https://fudanmv.github.io"
 # Build settings
 permalink: pretty
 
-plugins: [jekyll-paginate]
+plugins: [ jekyll-paginate ]
 paginate: 10
