@@ -1,1 +1,1 @@
-# fudanmv.github.io
+This is a official website of Fudan Machine Vision Lab.
