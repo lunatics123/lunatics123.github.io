@@ -1,1 +1,1 @@
-This is a official website of Fudan Machine Vision Lab.
+This is an official website of Fudan Machine Vision Lab.
