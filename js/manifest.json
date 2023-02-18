@@ -1,0 +1,17 @@
+{
+  "name": "Machine Vision Lab",
+  "short_name": "MVL",
+  "description": "This is a official website of Fudan Machine Vision Lab",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
