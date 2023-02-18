@@ -12,7 +12,7 @@ url: "https://fudanmv.github.io"
 # Build settings
 permalink: pretty
 paginate: 10
-exclude: [ "less","node_modules","Gruntfile.js","package.json","README.md" ]
+exclude: [ "less","node_modules","README.md" ]
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
