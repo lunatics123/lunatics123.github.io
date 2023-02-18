@@ -1,0 +1,36 @@
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="{{ site.description }}" name="description">
+    <meta content="{{ site.keyword }}" name="keywords">
+    <meta content="{{ site.theme-color }}" name="theme-color">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
+
+    <!-- Web App Manifest -->
+    <link href="{{ site.baseurl }}/js/manifest.json" rel="manifest">
+
+    <!-- Favicon -->
+    <link href="{{ site.baseurl }}/img/favicon.ico" rel="shortcut icon">
+
+    <!-- Safari Webpage Icon    by-BY -->
+    <link href="{{ site.baseurl }}/img/icon.png" rel="apple-touch-icon">
+
+    <!-- Canonical URL -->
+    <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ /css/bootstrap.min.css | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{ /css/hux-blog.min.css | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Pygments GitHub CSS -->
+    <link href="{{ /css/syntax.css | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+</head>
