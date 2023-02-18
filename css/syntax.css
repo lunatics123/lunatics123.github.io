@@ -82,3 +82,54 @@
 .highlight .vi { color: teal; }
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+.rounded-circle {
+	border-radius: 50% !important;
+}
+
+.row-50 {
+	margin-bottom: -50px;
+}
+
+.row-50:empty {
+	margin-bottom: 0;
+}
+
+.row-50 > * {
+	margin-bottom: 50px;
+}
+
+.well-sm {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-lg-left {
+    text-align: left !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.portrait-title h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    color: #000;
+    margin:20px 0 10px
+}
+
+.fa-tags:before {
+    content: "\f02c";
+}
+
+.round-xl {
+    border-radius: 40px;
+}
+
+.post-tag {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 18px;
+    background: #eceff1;
+}
