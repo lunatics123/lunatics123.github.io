@@ -19,11 +19,15 @@
                     <li>
                         <a href="{{ site.baseurl }}/">Home</a>
                     </li>
-                    {% for page in site.pages %}{% if page.title %}
                     <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                        <a href="{{ site.baseurl }}/members.html">Members</a>
                     </li>
-                    {% endif %}{% endfor %}
+                    <li>
+                        <a href="{{ site.baseurl }}/publications.html">Publications</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/contact.html">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
